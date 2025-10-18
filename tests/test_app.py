@@ -20,7 +20,7 @@ class TestApp:
         assert res == numbers[0]
     
     def test_student_id_last_two_digits(self, numbers):
-        expected = 39
+        expected = 40
         res = multiply_by_two(19.5)
         assert res == expected
 
